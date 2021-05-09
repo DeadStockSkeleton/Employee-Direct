@@ -8,8 +8,8 @@ export default function Table(props) {
         
           <th scope="col"><small className="text-muted">Img</small></th>
           <th scope="col"><small className="text-muted">Title</small></th>
-          <th scope="col"><small className="text-muted">First</small></th>
-          <th scope="col"><small className="text-muted">Last</small></th>
+          <th scope="col"><button onClick={props.toggleFirst} className="btn sort-btn-first"><small className="text-muted">First <i class="fas fa-angle-up sort-icon"></i></small></button></th>
+          <th scope="col"><button onClick={props.toggleLast} className="btn sort-btn-last"><small className="text-muted">Last <i class="fas fa-angle-up sort-icon"></i></small></button></th>
           <th scope="col"><small className="text-muted">Email</small></th>
           <th scope="col"><small className="text-muted">Phone</small></th>
         </tr>

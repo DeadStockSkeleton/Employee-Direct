@@ -1,5 +1,6 @@
 *{
     font-family: 'Montserrat', sans-serif;  
+    transition: .3s;
 }
 .search-input, .table-row{
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
@@ -74,4 +75,6 @@ tbody{
     border-radius: 25px;
   }
   
-  
+  .active{
+      transform: rotate(180deg);
+  }
